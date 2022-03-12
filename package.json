@@ -1,0 +1,33 @@
+{
+  "name": "@joshuaavalon/eslint-config",
+  "version": "5.0.0",
+  "description": "Shareable ESLint config.",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js packages",
+    "release": "standard-version"
+  },
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "homepage": "https://github.com/joshuaavalon/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuaavalon/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshuaavalon/eslint-config/issues"
+  },
+  "author": "Joshua Avalon",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "standard-version": "^9.3.2"
+  }
+}

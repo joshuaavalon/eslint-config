@@ -1,0 +1,34 @@
+{
+  "name": "@joshuaavalon/eslint-config-typescript",
+  "version": "5.0.0",
+  "description": "Shareable ESLint Typescript config.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Joshua Avalon",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/joshuaavalon/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuaavalon/eslint-config.git",
+    "directory": "packages/typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/joshuaavalon/eslint-config/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0"
+  }
+}
