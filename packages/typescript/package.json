@@ -6,7 +6,9 @@
     "access": "public"
   },
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "release": "standard-version -t @joshuaavalon/eslint-config-typescript\\@"
+  },
   "keywords": [
     "eslint",
     "typescript"
