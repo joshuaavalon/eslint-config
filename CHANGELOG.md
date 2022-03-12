@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/joshuaavalon/eslint-config/compare/v5.0.0...v6.0.0) (2022-03-12)
+
 ## 5.0.0 (2022-03-12)
 
 
