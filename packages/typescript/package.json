@@ -28,7 +28,6 @@
     "url": "https://github.com/joshuaavalon/eslint-config/issues"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
