@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.1.1](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-typescript@6.1.0...@joshuaavalon/eslint-config-typescript@6.1.1) (2022-04-05)
+
 ## [6.1.0](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-typescript@6.0.0...@joshuaavalon/eslint-config-typescript@6.1.0) (2022-04-05)
 
 
