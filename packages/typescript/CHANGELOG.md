@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.1.3](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-typescript@6.1.2...@joshuaavalon/eslint-config-typescript@6.1.3) (2022-04-05)
+
+
+### Bug Fixes
+
+* **typescript:** fix prettier ([42284f8](https://github.com/joshuaavalon/eslint-config/commit/42284f8783ee64ca5d8696b747857b15f986b362))
+
 ### [6.1.2](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-typescript@6.1.1...@joshuaavalon/eslint-config-typescript@6.1.2) (2022-04-05)
 
 
