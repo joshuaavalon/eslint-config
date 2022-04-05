@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.1.0](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-typescript@6.0.0...@joshuaavalon/eslint-config-typescript@6.1.0) (2022-04-05)
+
+
+### Features
+
+* **typescript:** add eslint-plugin-prettier ([8644bde](https://github.com/joshuaavalon/eslint-config/commit/8644bdea6a61220e946db95c0e2c4ada30451a0f))
+
 ## 6.0.0 (2022-03-12)
 
 
