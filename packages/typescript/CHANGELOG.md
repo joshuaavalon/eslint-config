@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.1.4](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-typescript@6.1.3...@joshuaavalon/eslint-config-typescript@6.1.4) (2022-04-07)
+
+
+### Bug Fixes
+
+* **typescript:** remove typecheck lint ([5f7c410](https://github.com/joshuaavalon/eslint-config/commit/5f7c410e4e7f5276ca4af4ca37d8311097080a58))
+
 ### [6.1.3](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-typescript@6.1.2...@joshuaavalon/eslint-config-typescript@6.1.3) (2022-04-05)
 
 
