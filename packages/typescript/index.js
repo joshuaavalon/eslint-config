@@ -65,6 +65,10 @@ module.exports = {
         avoidEscape: true
       }
     ],
+    "@typescript-eslint/no-redeclare": [
+      "error",
+      { ignoreDeclarationMerge: true }
+    ],
     "array-callback-return": "error",
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
@@ -117,7 +121,7 @@ module.exports = {
     "no-param-reassign": "error",
     "no-promise-executor-return": "error",
     "no-proto": "error",
-    "no-redeclare": "error",
+    "no-redeclare": "off",
     "no-return-assign": "error",
     "no-script-url": "error",
     "no-self-assign": "error",
