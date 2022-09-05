@@ -3,72 +3,12 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/strict",
     "plugin:prettier/recommended"
   ],
+  plugins: ["@typescript-eslint"],
   rules: {
-    "@typescript-eslint/array-type": "error",
-    "@typescript-eslint/explicit-function-return-type": [
-      "error",
-      {
-        allowExpressions: true,
-        allowHigherOrderFunctions: true,
-        allowTypedFunctionExpressions: true
-      }
-    ],
-    "@typescript-eslint/naming-convention": [
-      "error",
-      {
-        format: ["camelCase"],
-        leadingUnderscore: "allow",
-        selector: "default"
-      },
-      {
-        format: ["camelCase", "UPPER_CASE", "PascalCase"],
-        leadingUnderscore: "allow",
-        selector: "variable"
-      },
-      {
-        format: ["PascalCase"],
-        selector: "typeLike"
-      },
-      {
-        format: null,
-        modifiers: ["destructured"],
-        selector: "variable"
-      },
-      {
-        format: null,
-        selector: "objectLiteralProperty"
-      }
-    ],
-    "@typescript-eslint/no-empty-interface": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-unused-expressions": ["error"],
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        args: "after-used",
-        argsIgnorePattern: "^_",
-        ignoreRestSiblings: true
-      }
-    ],
-    "@typescript-eslint/no-use-before-define": [
-      "error",
-      {
-        typedefs: false
-      }
-    ],
-    "@typescript-eslint/quotes": [
-      "error",
-      "double",
-      {
-        avoidEscape: true
-      }
-    ],
-    "@typescript-eslint/no-redeclare": [
-      "error",
-      { ignoreDeclarationMerge: true }
-    ],
     "array-callback-return": "error",
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
@@ -172,9 +112,77 @@ module.exports = {
       }
     },
     {
-      files: ["*.ts"],
+      files: ["*.ts", "*.mts", "*.cts", "*.tsx"],
       rules: {
-        "no-dupe-class-members": "off"
+        "no-dupe-class-members": "off",
+        "@typescript-eslint/explicit-member-accessibility": "error",
+        "@typescript-eslint/array-type": "error",
+        "@typescript-eslint/explicit-function-return-type": [
+          "error",
+          {
+            allowExpressions: true,
+            allowHigherOrderFunctions: true,
+            allowTypedFunctionExpressions: true,
+            allowDirectConstAssertionInArrowFunctions: true
+          }
+        ],
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            format: ["camelCase"],
+            leadingUnderscore: "allow",
+            selector: "default"
+          },
+          {
+            format: ["camelCase", "UPPER_CASE", "PascalCase"],
+            leadingUnderscore: "allow",
+            selector: "variable"
+          },
+          {
+            format: ["PascalCase"],
+            selector: "typeLike"
+          },
+          {
+            format: null,
+            modifiers: ["destructured"],
+            selector: "variable"
+          },
+          {
+            format: null,
+            selector: "objectLiteralProperty"
+          }
+        ],
+        "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-unused-expressions": ["error"],
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            args: "after-used",
+            argsIgnorePattern: "^_",
+            ignoreRestSiblings: true
+          }
+        ],
+        "@typescript-eslint/no-use-before-define": [
+          "error",
+          {
+            typedefs: false
+          }
+        ],
+        "@typescript-eslint/quotes": [
+          "error",
+          "double",
+          {
+            avoidEscape: true
+          }
+        ],
+        "@typescript-eslint/no-redeclare": [
+          "error",
+          { ignoreDeclarationMerge: true }
+        ],
+        "@typescript-eslint/consistent-type-imports": "error",
+        "@typescript-eslint/method-signature-style": "error",
+        "@typescript-eslint/no-useless-empty-export": "error"
       }
     }
   ]
