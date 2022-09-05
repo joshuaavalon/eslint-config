@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.5](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-react@6.0.4...@joshuaavalon/eslint-config-react@6.0.5) (2022-09-05)
+
+
+### Bug Fixes
+
+* **react:** update dependencies ([a92179a](https://github.com/joshuaavalon/eslint-config/commit/a92179a62954664237f4939c431b8172ddaaaf33))
+
 ### [6.0.4](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-react@6.0.3...@joshuaavalon/eslint-config-react@6.0.4) (2022-09-05)
 
 
