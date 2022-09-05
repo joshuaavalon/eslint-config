@@ -1,6 +1,6 @@
 {
   "name": "@joshuaavalon/eslint-config-typescript",
-  "version": "6.2.2",
+  "version": "6.2.3",
   "description": "Shareable ESLint Typescript config.",
   "publishConfig": {
     "access": "public"
