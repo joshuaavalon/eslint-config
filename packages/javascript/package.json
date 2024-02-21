@@ -1,7 +1,7 @@
 {
-  "name": "@joshuaavalon/eslint-config-react",
-  "version": "6.0.8",
-  "description": "Shareable ESLint React config.",
+  "name": "@joshuaavalon/eslint-config-javascript",
+  "version": "6.2.3",
+  "description": "Shareable ESLint JavaScript config.",
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -12,16 +12,21 @@
     "build": "rollup -c"
   },
   "exports": {
-    "require": "./dist/cjs/index.js",
-    "import": "./dist/esm/index.js"
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js"
+    },
+    "./stylistic": {
+      "require": "./dist/cjs/stylistic.js",
+      "import": "./dist/esm/stylistic.js"
+    }
   },
   "keywords": [
     "eslint",
-    "typescript",
-    "react"
+    "javascript"
   ],
   "files": [
-    "index.js"
+    "dist"
   ],
   "author": "Joshua Avalon",
   "license": "Apache-2.0",
@@ -29,15 +34,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/joshuaavalon/eslint-config.git",
-    "directory": "packages/react"
+    "directory": "packages/javascript"
   },
   "bugs": {
     "url": "https://github.com/joshuaavalon/eslint-config/issues"
   },
   "dependencies": {
-    "@joshuaavalon/eslint-config-typescript": "^6.2.3",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "@stylistic/eslint-plugin": "^1.6.2"
   },
   "peerDependencies": {
     "eslint": "^8.56.0"

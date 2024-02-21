@@ -2,12 +2,18 @@
   "name": "@joshuaavalon/eslint-config-typescript",
   "version": "6.2.3",
   "description": "Shareable ESLint Typescript config.",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "publishConfig": {
     "access": "public"
   },
-  "main": "index.js",
   "scripts": {
-    "release": "standard-version -t @joshuaavalon/eslint-config-typescript@"
+    "build": "rollup -c"
+  },
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js"
   },
   "keywords": [
     "eslint",
@@ -28,10 +34,10 @@
     "url": "https://github.com/joshuaavalon/eslint-config/issues"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.36.0",
-    "@typescript-eslint/parser": "^5.36.0",
-    "eslint": "^8.23.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1"
+    "@joshuaavalon/eslint-config-javascript": "^6.2.3",
+    "typescript-eslint": "^7.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0"
   }
 }

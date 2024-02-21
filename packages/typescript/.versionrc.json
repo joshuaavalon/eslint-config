@@ -1,4 +1,0 @@
-{
-  "path": ".",
-  "releaseCommitMessageFormat": "release(typescript): {{currentTag}}"
-}
