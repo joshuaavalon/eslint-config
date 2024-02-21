@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js packages",
+    "lint": "eslint packages",
     "build": "npm run --workspaces build",
     "release": "npm run release --workspaces"
   },
