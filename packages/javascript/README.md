@@ -1,6 +1,23 @@
+# @joshuaavalon/eslint-config-javascript
+
+This is the opinionated ESLint configuration repository that used by myself.
+Not support is guaranteed. Use as your own risk.
+
+This configuration include both lint and format rules which may cause conflicts with other formatter like Prettier.
+
+## Getting Started
+
+```
+npm i -D eslint @joshuaavalon/eslint-config-javascript
+```
+
 ```js
+// eslint.config.js
 import globals from "globals";
+import jsRules from "@joshuaavalon/eslint-config-javascript";
+
 {
+  ...jsRules,
   ignores: ["node_modules", "dist"],
   files: [
     "**/*.js",
@@ -9,6 +26,6 @@ import globals from "globals";
   ],
   languageOptions: {
     globals: { ...globals.node }
-  },
+  }
 }
 ```

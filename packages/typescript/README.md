@@ -1,7 +1,23 @@
+# @joshuaavalon/eslint-config-typescript
+
+This is the opinionated ESLint configuration repository that used by myself.
+Not support is guaranteed. Use as your own risk.
+
+This configuration include both lint and format rules which may cause conflicts with other formatter like Prettier.
+
+## Getting Started
+
+```
+npm i -D eslint @joshuaavalon/eslint-config-typescript
+```
+
 ```js
 import globals from "globals";
 import typescript from "typescript-eslint";
+import tsRules from "@joshuaavalon/eslint-config-typescript";
+
 {
+  ...tsRules,
   ignores: ["node_modules", "dist"],
   files: ["**/*.ts"],
   languageOptions: {
