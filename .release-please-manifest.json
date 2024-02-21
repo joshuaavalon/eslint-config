@@ -1,5 +1,5 @@
 {
-  "packages/javascript": "6.0.0",
-  "packages/react": "6.0.8",
-  "packages/typescript": "6.2.3"
+  "packages/javascript": "7.0.0",
+  "packages/react": "7.0.0",
+  "packages/typescript": "7.0.0"
 }
