@@ -33,7 +33,7 @@
   "homepage": "https://github.com/joshuaavalon/eslint-config#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshuaavalon/eslint-config.git",
+    "url": "git+https://github.com/joshuaavalon/eslint-config.git",
     "directory": "packages/javascript"
   },
   "bugs": {
