@@ -20,7 +20,7 @@
     "typescript"
   ],
   "files": [
-    "index.js"
+    "dist"
   ],
   "author": "Joshua Avalon",
   "license": "Apache-2.0",
