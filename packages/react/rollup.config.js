@@ -17,7 +17,6 @@ export default {
     "eslint-plugin-react/configs/jsx-runtime.js",
     "eslint-plugin-react-hooks",
     "@joshuaavalon/eslint-config-javascript",
-    "@joshuaavalon/eslint-config-javascript/stylistic",
     "@joshuaavalon/eslint-config-typescript"
   ]
 };

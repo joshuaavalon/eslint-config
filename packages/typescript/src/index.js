@@ -1,6 +1,5 @@
 import typescript from "typescript-eslint";
 import jsRules from "@joshuaavalon/eslint-config-javascript";
-import formatRules from "@joshuaavalon/eslint-config-javascript/stylistic";
 import eslintRules from "./eslint.js";
 
 /** @type {import("eslint").Linter.FlatConfig} */
@@ -11,8 +10,7 @@ const config = {
   },
   rules: {
     ...jsRules.rules,
-    ...eslintRules,
-    ...formatRules
+    ...eslintRules
   }
 };
 

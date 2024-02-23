@@ -10,9 +10,5 @@ export default {
       format: "esm"
     }
   ],
-  external: [
-    "typescript-eslint",
-    "@joshuaavalon/eslint-config-javascript",
-    "@joshuaavalon/eslint-config-javascript/stylistic"
-  ]
+  external: ["typescript-eslint", "@joshuaavalon/eslint-config-javascript"]
 };
