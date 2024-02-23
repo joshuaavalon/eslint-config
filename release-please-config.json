@@ -22,13 +22,16 @@
       "component": "@joshuaavalon/eslint-config"
     },
     "packages/javascript": {
-      "component": "@joshuaavalon/eslint-config-javascript"
+      "component": "@joshuaavalon/eslint-config-javascript",
+      "skip-github-release": true
     },
     "packages/react": {
-      "component": "@joshuaavalon/eslint-config-react"
+      "component": "@joshuaavalon/eslint-config-react",
+      "skip-github-release": true
     },
     "packages/typescript": {
-      "component": "@joshuaavalon/eslint-config-typescript"
+      "component": "@joshuaavalon/eslint-config-typescript",
+      "skip-github-release": true
     }
   }
 }
