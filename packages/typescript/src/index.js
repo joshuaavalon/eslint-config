@@ -5,9 +5,12 @@ import eslintRules from "./eslint.js";
 
 /** @type {import("eslint").Linter.FlatConfig} */
 const config = {
-  plugins: { "@typescript-eslint": typescript.plugin },
+  plugins: {
+    ...jsRules.plugins,
+    "@typescript-eslint": typescript.plugin
+  },
   rules: {
-    ...jsRules,
+    ...jsRules.rules,
     ...eslintRules,
     ...formatRules
   }

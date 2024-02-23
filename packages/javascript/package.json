@@ -15,10 +15,6 @@
     ".": {
       "require": "./dist/cjs/index.js",
       "import": "./dist/esm/index.js"
-    },
-    "./stylistic": {
-      "require": "./dist/cjs/stylistic.js",
-      "import": "./dist/esm/stylistic.js"
     }
   },
   "keywords": [
