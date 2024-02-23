@@ -1,5 +1,19 @@
 # Changelog
 
+## [7.0.2](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-v7.0.1...@joshuaavalon/eslint-config-react-v7.0.2) (2024-02-23)
+
+
+### Bug Fixes
+
+* merging configs ([b35cfd6](https://github.com/joshuaavalon/eslint-config/commit/b35cfd6d7055cf89b112aa7a6c30a82ee87a6a04))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-typescript bumped from ^7.0.1 to ^7.0.2
+
 ## [7.0.1](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-v7.0.0...@joshuaavalon/eslint-config-react-v7.0.1) (2024-02-23)
 
 
