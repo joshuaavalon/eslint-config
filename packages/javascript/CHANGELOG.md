@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.0.2](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-v7.0.1...@joshuaavalon/eslint-config-javascript-v7.0.2) (2024-02-23)
+
+
+### Miscellaneous Chores
+
+* **@joshuaavalon/eslint-config-javascript:** Synchronize eslint-config versions
+
 ## [7.0.1](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-v7.0.0...@joshuaavalon/eslint-config-javascript-v7.0.1) (2024-02-23)
 
 
