@@ -1,38 +1,15 @@
 {
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "release-type": "node",
-  "include-component-in-tag": false,
   "plugins": [
     {
-      "type": "node-workspace",
-      "merge": false
-    },
-    {
-      "type": "linked-versions",
-      "groupName": "eslint-config",
-      "components": [
-        "@joshuaavalon/eslint-config",
-        "@joshuaavalon/eslint-config-javascript",
-        "@joshuaavalon/eslint-config-react",
-        "@joshuaavalon/eslint-config-typescript"
-      ]
+      "type": "node-workspace"
     }
   ],
   "packages": {
-    ".": {
-      "component": "@joshuaavalon/eslint-config"
-    },
-    "packages/javascript": {
-      "component": "@joshuaavalon/eslint-config-javascript",
-      "skip-github-release": true
-    },
-    "packages/react": {
-      "component": "@joshuaavalon/eslint-config-react",
-      "skip-github-release": true
-    },
-    "packages/typescript": {
-      "component": "@joshuaavalon/eslint-config-typescript",
-      "skip-github-release": true
-    }
+    ".": {},
+    "packages/javascript": {},
+    "packages/react": {},
+    "packages/typescript": {}
   }
 }
