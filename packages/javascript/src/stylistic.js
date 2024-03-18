@@ -49,6 +49,7 @@ const rules = {
   ],
   "@stylistic/implicit-arrow-linebreak": ["error", "beside"],
   "@stylistic/indent": ["error", 2],
+  "@stylistic/indent-binary-ops": ["error", 2],
   "@stylistic/key-spacing": ["error", { afterColon: true }],
   "@stylistic/keyword-spacing": [
     "error",
@@ -156,9 +157,6 @@ const rules = {
   "@stylistic/switch-colon-spacing": "error",
   "@stylistic/template-curly-spacing": ["error", "never"],
   "@stylistic/template-tag-spacing": ["error", "never"],
-  "@stylistic/type-annotation-spacing": "error",
-  "@stylistic/type-generic-spacing": ["error"],
-  "@stylistic/type-named-tuple-spacing": ["error"],
   "@stylistic/wrap-iife": ["error", "inside"],
   "@stylistic/yield-star-spacing": ["error", "after"]
 };
