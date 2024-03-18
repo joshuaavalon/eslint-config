@@ -1,5 +1,22 @@
 # Changelog
 
+## [7.1.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v7.0.2...eslint-config-javascript-v7.1.0) (2024-03-18)
+
+
+### Features
+
+* update dependencies ([7e9382c](https://github.com/joshuaavalon/eslint-config/commit/7e9382c39102a6fa467b110492038715100ec412))
+
+
+### Bug Fixes
+
+* update dependencies ([cb5b537](https://github.com/joshuaavalon/eslint-config/commit/cb5b537646be27ff6c96dc209dd6c90f480b9db0))
+
+
+### Miscellaneous Chores
+
+* release 7.1.0 ([ed5ea5d](https://github.com/joshuaavalon/eslint-config/commit/ed5ea5df4353becc47f1b6be6313aa814b05a315))
+
 ## [7.0.2](https://github.com/joshuaavalon/eslint-config/compare/@joshuaavalon/eslint-config-v7.0.1...@joshuaavalon/eslint-config-javascript-v7.0.2) (2024-02-23)
 
 
