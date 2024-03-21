@@ -5,14 +5,8 @@ const rules = {
   "@stylistic/array-element-newline": [
     "error",
     {
-      ArrayExpression: {
-        multiline: true,
-        minItems: 3
-      },
-      ArrayPattern: {
-        multiline: true,
-        minItems: 3
-      }
+      ArrayExpression: "consistent",
+      ArrayPattern: "consistent"
     }
   ],
   "@stylistic/arrow-parens": ["error", "as-needed"],
