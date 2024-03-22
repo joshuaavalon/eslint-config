@@ -1,6 +1,6 @@
 {
-  ".": "7.1.0",
-  "packages/javascript": "7.1.0",
-  "packages/react": "7.1.0",
-  "packages/typescript": "7.1.0"
+  ".": "7.1.1",
+  "packages/javascript": "7.1.1",
+  "packages/react": "7.1.1",
+  "packages/typescript": "7.1.1"
 }

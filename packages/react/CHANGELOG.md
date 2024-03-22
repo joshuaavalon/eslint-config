@@ -1,5 +1,14 @@
 # Changelog
 
+## [7.1.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v7.1.0...eslint-config-react-v7.1.1) (2024-03-21)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-typescript bumped from ^7.1.0 to ^7.1.1
+
 ## [7.1.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v7.0.2...eslint-config-react-v7.1.0) (2024-03-18)
 
 

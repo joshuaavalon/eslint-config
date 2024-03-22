@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v7.1.0...eslint-config-v7.1.1) (2024-03-21)
+
+
+### Bug Fixes
+
+* use consistent for @stylistic/array-element-newline ([f5e5430](https://github.com/joshuaavalon/eslint-config/commit/f5e54308a3b8b16b59a22941c27d24a1dcbc3b01))
+
 ## [7.1.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v7.0.2...eslint-config-v7.1.0) (2024-03-18)
 
 
