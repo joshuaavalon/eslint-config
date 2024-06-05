@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v7.1.1...eslint-config-v7.1.2) (2024-06-05)
+
+
+### Bug Fixes
+
+* change array-bracket-newline to consistent ([88f95d5](https://github.com/joshuaavalon/eslint-config/commit/88f95d525b92558ffeb35f010164497a8c07f075))
+
 ## [7.1.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v7.1.0...eslint-config-v7.1.1) (2024-03-21)
 
 
