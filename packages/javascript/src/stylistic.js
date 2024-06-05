@@ -1,6 +1,6 @@
 /** @type {import("@stylistic/eslint-plugin").RuleOptions} */
 const rules = {
-  "@stylistic/array-bracket-newline": ["error", { multiline: true }],
+  "@stylistic/array-bracket-newline": ["error", "consistent"],
   "@stylistic/array-bracket-spacing": ["error", "never"],
   "@stylistic/array-element-newline": [
     "error",
