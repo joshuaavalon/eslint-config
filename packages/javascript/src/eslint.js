@@ -63,11 +63,7 @@ const rules = {
   "use-isnan": ["error"],
   "valid-typeof": ["error"],
   "accessor-pairs": ["error"],
-  "arrow-body-style": [
-    "error",
-    "as-needed",
-    { requireReturnForObjectLiteral: true }
-  ],
+  "arrow-body-style": ["error", "as-needed"],
   camelcase: ["error"],
   complexity: ["error"],
   "consistent-return": ["error"],
