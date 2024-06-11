@@ -1,5 +1,14 @@
 # Changelog
 
+## [7.1.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v7.1.2...eslint-config-typescript-v7.1.3) (2024-06-11)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-javascript bumped from ^7.1.2 to ^7.1.3
+
 ## [7.1.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v7.1.1...eslint-config-typescript-v7.1.2) (2024-06-05)
 
 

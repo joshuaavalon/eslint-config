@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v7.1.2...eslint-config-javascript-v7.1.3) (2024-06-11)
+
+
+### Bug Fixes
+
+* remove requireReturnForObjectLiteral ([cbf8b61](https://github.com/joshuaavalon/eslint-config/commit/cbf8b613ab27765a24d8a26c0f51531a2bc0e229))
+
 ## [7.1.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v7.1.1...eslint-config-javascript-v7.1.2) (2024-06-05)
 
 
