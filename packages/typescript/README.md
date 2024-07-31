@@ -25,7 +25,7 @@ import tsConfig from "@joshuaavalon/eslint-config-typescript";
     languageOptions: {
       parser: typescript.parser,
       parserOptions: {
-        project: true,
+        projectService: true,
         tsconfigDirName: import.meta.dirname
       },
       globals: {

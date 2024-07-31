@@ -24,7 +24,7 @@ import reactConfig from "@joshuaavalon/eslint-config-react";
   languageOptions: {
     parser: typescript.parser,
     parserOptions: {
-      project: true,
+      projectService: true,
       tsconfigDirName: import.meta.dirname,
       ecmaFeatures: { jsx: true }
     },
