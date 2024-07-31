@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.0.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.0.1...eslint-config-javascript-v8.0.2) (2024-07-31)
+
+
+### Bug Fixes
+
+* fix rules ([b84e486](https://github.com/joshuaavalon/eslint-config/commit/b84e486050d4cbb521526196b9c69c9a1ce23715))
+
 ## [8.0.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.0.0...eslint-config-javascript-v8.0.1) (2024-07-31)
 
 
