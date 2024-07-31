@@ -1,16 +1,17 @@
 import typescript from "typescript-eslint";
-import jsRules from "@joshuaavalon/eslint-config-javascript";
+import jsConfig from "@joshuaavalon/eslint-config-javascript";
 import eslintRules from "./eslint.js";
 import stylisticRules from "./stylistic.js";
 
-/** @type {import("eslint").Linter.FlatConfig} */
+/** @type {import("eslint").Linter.Config} */
 const config = {
+  files: ["**/*.ts"],
   plugins: {
-    ...jsRules.plugins,
+    ...jsConfig.plugins,
     "@typescript-eslint": typescript.plugin
   },
   rules: {
-    ...jsRules.rules,
+    ...jsConfig.rules,
     ...eslintRules,
     ...stylisticRules
   }

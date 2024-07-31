@@ -53,6 +53,7 @@ const rules = {
     }
   ],
   "@stylistic/linebreak-style": ["error", "unix"],
+  "@stylistic/line-comment-position": ["off"],
   "@stylistic/lines-around-comment": [
     "error",
     {
@@ -89,9 +90,10 @@ const rules = {
   "@stylistic/max-len": "off",
   "@stylistic/max-statements-per-line": ["error", { max: 1 }],
   "@stylistic/member-delimiter-style": "error",
+  "@stylistic/multiline-comment-style": ["error", "starred-block"],
   "@stylistic/multiline-ternary": ["error", "always-multiline"],
   "@stylistic/new-parens": ["error", "always"],
-  "@stylistic/newline-per-chained-call": ["error", { ignoreChainWithDepth: 2 }],
+  "@stylistic/newline-per-chained-call": ["error", { ignoreChainWithDepth: 3 }],
   "@stylistic/no-extra-parens": [
     "error",
     "all",
@@ -152,6 +154,7 @@ const rules = {
   "@stylistic/template-curly-spacing": ["error", "never"],
   "@stylistic/template-tag-spacing": ["error", "never"],
   "@stylistic/wrap-iife": ["error", "inside"],
+  "@stylistic/wrap-regex": ["off", "inside"],
   "@stylistic/yield-star-spacing": ["error", "after"]
 };
 

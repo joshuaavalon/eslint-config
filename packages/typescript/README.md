@@ -14,23 +14,26 @@ npm i -D eslint @joshuaavalon/eslint-config-typescript
 ```js
 import globals from "globals";
 import typescript from "typescript-eslint";
-import tsRules from "@joshuaavalon/eslint-config-typescript";
+import jsConfig from "@joshuaavalon/eslint-config-javascript";
+import tsConfig from "@joshuaavalon/eslint-config-typescript";
 
-{
-  ...tsRules,
-  ignores: ["node_modules", "dist"],
-  files: ["**/*.ts"],
-  languageOptions: {
-    parser: typescript.parser,
-    parserOptions: {
-      project: true,
-      tsconfigDirName: import.meta.dirname
-    },
-    globals: {
-      ...globals.node,
-      ...globals.browser,
-      ...globals.nodeBuiltin
+[
+  jsConfig,
+  tsConfig,
+  {
+    ignores: ["node_modules", "dist"],
+    languageOptions: {
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        project: true,
+        tsconfigDirName: import.meta.dirname
+      },
+      globals: {
+        ...globals.node,
+        ...globals.browser,
+        ...globals.nodeBuiltin
+      }
     }
   }
-}
+];
 ```

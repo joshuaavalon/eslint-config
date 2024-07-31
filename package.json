@@ -27,7 +27,7 @@
   "author": "Joshua Avalon",
   "license": "Apache-2.0",
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "rollup": "^4.12.0"
+    "eslint": "^9.8.0",
+    "rollup": "^4.18.1"
   }
 }

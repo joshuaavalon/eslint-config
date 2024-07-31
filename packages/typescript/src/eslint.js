@@ -34,7 +34,21 @@ const extensionRules = {
 
 /** @type {import("eslint").Linter.RulesRecord} */
 const rules = {
+  "constructor-super": "off",
+  "no-invalid-this": "off",
   "no-undef": "off",
+  "no-const-assign": "off",
+  "no-this-before-super": "off",
+  "no-dupe-args": "off",
+  "no-unreachable": "off",
+  "getter-return": "off",
+  "no-dupe-keys": "off",
+  "no-func-assign": "off",
+  "no-dupe-class-members": "off",
+  "no-obj-calls": "off",
+  "no-setter-return": "off",
+  "no-unsafe-negation": "off",
+  "no-import-assign": "off",
   "@typescript-eslint/adjacent-overload-signatures": "error",
   "@typescript-eslint/array-type": "error",
   "@typescript-eslint/await-thenable": "error",

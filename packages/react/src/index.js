@@ -6,8 +6,9 @@ import tsRules from "@joshuaavalon/eslint-config-typescript";
 import eslintRules from "./eslint.js";
 import stylisticRules from "./stylistic.js";
 
-/** @type {import("eslint").Linter.FlatConfig} */
+/** @type {import("eslint").Linter.Config} */
 const config = {
+  files: ["**/*.jsx", "**/*.tsx"],
   plugins: {
     ...tsRules.plugins,
     react: reactPlugin,
