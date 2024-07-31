@@ -1,5 +1,23 @@
 # Changelog
 
+## [8.0.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v7.1.3...eslint-config-typescript-v8.0.0) (2024-07-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* update eslint to v9
+
+### Features
+
+* update eslint to v9 ([e69c776](https://github.com/joshuaavalon/eslint-config/commit/e69c77653fcab4a31b93fce0a84722ad52697e39))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-javascript bumped from ^7.1.3 to ^8.0.0
+
 ## [7.1.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v7.1.2...eslint-config-typescript-v7.1.3) (2024-06-11)
 
 
