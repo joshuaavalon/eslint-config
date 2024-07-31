@@ -18,12 +18,12 @@ import jsConfig from "@joshuaavalon/eslint-config-javascript";
 import tsConfig from "@joshuaavalon/eslint-config-typescript";
 
 [
-  jsConfig,
-  tsConfig,
   {
+    ...tsConfig,
     ignores: ["node_modules", "dist"],
+    files: ["**/*.ts"],
     languageOptions: {
-      parser: "@typescript-eslint/parser",
+      parser: typescript.parser,
       parserOptions: {
         project: true,
         tsconfigDirName: import.meta.dirname

@@ -4,7 +4,6 @@ import stylisticRules from "./stylistic.js";
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
-  files: ["**/*.js", "**/*.mjs", "**/*.cjs"],
   plugins: { "@stylistic": stylisticPlugin },
   rules: {
     ...eslintRules,

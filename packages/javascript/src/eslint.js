@@ -130,13 +130,7 @@ const rules = {
   "no-lone-blocks": ["error"],
   "no-lonely-if": ["error"],
   "no-loop-func": ["error"],
-  "no-magic-numbers": ["error", {
-    ignoreArrayIndexes: true,
-    ignoreDefaultValues: true,
-    ignoreClassFieldInitialValues: true,
-    enforceConst: true,
-    detectObjects: false
-  }],
+  "no-magic-numbers": ["off"],
   "no-mixed-operators": ["off"],
   "no-multi-assign": ["error"],
   "no-multi-str": ["error"],

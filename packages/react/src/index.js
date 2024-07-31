@@ -8,6 +8,7 @@ import stylisticRules from "./stylistic.js";
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
+  ignores: ["node_modules"],
   files: ["**/*.jsx", "**/*.tsx"],
   plugins: {
     ...tsRules.plugins,

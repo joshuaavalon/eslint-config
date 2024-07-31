@@ -14,7 +14,7 @@ npm i -D eslint @joshuaavalon/eslint-config-react
 ```js
 import globals from "globals";
 import typescript from "typescript-eslint";
-import reactRules from "@joshuaavalon/eslint-config-react";
+import reactConfig from "@joshuaavalon/eslint-config-react";
 
 {
   ...reactRules,

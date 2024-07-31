@@ -14,16 +14,12 @@ npm i -D eslint @joshuaavalon/eslint-config-javascript
 ```js
 // eslint.config.js
 import globals from "globals";
-import jsRules from "@joshuaavalon/eslint-config-javascript";
+import jsConfig from "@joshuaavalon/eslint-config-javascript";
 
 {
-  ...jsRules,
+  ...jsConfig,
   ignores: ["node_modules", "dist"],
-  files: [
-    "**/*.js",
-    "**/*.mjs",
-    "**/*.cjs"
-  ],
+  files: ["**/*.js", "**/*.mjs", "**/*.cjs"],
   languageOptions: {
     globals: { ...globals.node }
   }

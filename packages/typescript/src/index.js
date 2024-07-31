@@ -5,7 +5,6 @@ import stylisticRules from "./stylistic.js";
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
-  files: ["**/*.ts"],
   plugins: {
     ...jsConfig.plugins,
     "@typescript-eslint": typescript.plugin
