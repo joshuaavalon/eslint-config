@@ -72,7 +72,11 @@ const rules = {
   "arrow-body-style": ["error", "as-needed"],
   "block-scoped-var": ["error"],
   camelcase: ["error"],
-  "capitalized-comments": ["error"],
+
+  /**
+   * Break comment code
+   */
+  "capitalized-comments": ["off"],
   complexity: ["error"],
   "consistent-return": ["error"],
   "consistent-this": ["error"],
@@ -119,7 +123,11 @@ const rules = {
   "no-extra-boolean-cast": ["error"],
   "no-extra-label": ["error"],
   "no-global-assign": ["error"],
-  "no-implicit-coercion": ["error"],
+
+  /**
+   * Break typescript null check
+   */
+  "no-implicit-coercion": ["off"],
   "no-implicit-globals": ["error"],
   "no-implied-eval": ["error"],
   "no-inline-comments": ["off"],
@@ -157,7 +165,7 @@ const rules = {
   "no-return-await": ["error"],
   "no-script-url": ["error"],
   "no-sequences": ["error"],
-  "no-shadow": ["error", { builtinGlobals: true, hoist: "all" }],
+  "no-shadow": ["off"],
   "no-shadow-restricted-names": ["error"],
   "no-ternary": ["off"],
   "no-throw-literal": ["error"],
@@ -184,7 +192,11 @@ const rules = {
   "operator-assignment": ["error", "always"],
   "prefer-arrow-callback": ["error", { allowNamedFunctions: false, allowUnboundThis: true }],
   "prefer-const": ["error"],
-  "prefer-destructuring": ["error", { object: true, array: false }, { enforceForRenamedProperties: true }],
+
+  /**
+   * It does not handle `this.a = opts.a`
+   */
+  "prefer-destructuring": ["off"],
   "prefer-exponentiation-operator": ["error"],
   "prefer-named-capture-group": ["error"],
   "prefer-numeric-literals": ["error"],

@@ -90,7 +90,11 @@ const rules = {
   "@stylistic/max-len": "off",
   "@stylistic/max-statements-per-line": ["error", { max: 1 }],
   "@stylistic/member-delimiter-style": "error",
-  "@stylistic/multiline-comment-style": ["error", "starred-block"],
+
+  /**
+   * Break comment code block
+   */
+  "@stylistic/multiline-comment-style": ["off"],
   "@stylistic/multiline-ternary": ["error", "always-multiline"],
   "@stylistic/new-parens": ["error", "always"],
   "@stylistic/newline-per-chained-call": ["error", { ignoreChainWithDepth: 3 }],
