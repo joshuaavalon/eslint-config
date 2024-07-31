@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.0.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.0.0...eslint-config-javascript-v8.0.1) (2024-07-31)
+
+
+### Bug Fixes
+
+* spacing ([010f957](https://github.com/joshuaavalon/eslint-config/commit/010f957b72cf006dce7fee23daf262fd038b8e52))
+
 ## [8.0.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v7.1.3...eslint-config-javascript-v8.0.0) (2024-07-31)
 
 
