@@ -35,7 +35,7 @@
     "url": "https://github.com/joshuaavalon/eslint-config/issues"
   },
   "dependencies": {
-    "@joshuaavalon/eslint-config-typescript": "^7.1.0",
+    "@joshuaavalon/eslint-config-typescript": "^8.0.2",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-beta-26f2496093-20240514"
   },
