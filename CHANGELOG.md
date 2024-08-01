@@ -1,5 +1,15 @@
 # Changelog
 
+## [8.1.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v8.0.2...eslint-config-v8.1.0) (2024-08-01)
+
+
+### Bug Fixes
+
+* fix version ([5d5a883](https://github.com/joshuaavalon/eslint-config/commit/5d5a883985b1ab01a67375c16272a7551cbf1a0a))
+* fix version ([d303c86](https://github.com/joshuaavalon/eslint-config/commit/d303c86a44887f09f4ac585fdcad8602ab9d51ae))
+* fix version ([54b1a9f](https://github.com/joshuaavalon/eslint-config/commit/54b1a9f579aaca0a1f601ccfcfbbd365d1a2909f))
+* update @stylistic/eslint-plugin & typescript-eslint ([48ff3f8](https://github.com/joshuaavalon/eslint-config/commit/48ff3f84d2140a357f6a14acaebd4afa8cc78d33))
+
 ## [8.0.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v8.0.1...eslint-config-v8.0.2) (2024-07-31)
 
 
