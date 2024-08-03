@@ -7,17 +7,9 @@
     }
   ],
   "packages": {
-    ".": {
-      "release-as": "8.1.0"
-    },
-    "packages/javascript": {
-      "release-as": "8.1.0"
-    },
-    "packages/react": {
-      "release-as": "8.1.0"
-    },
-    "packages/typescript": {
-      "release-as": "8.1.0"
-    }
+    ".": {},
+    "packages/javascript": {},
+    "packages/react": {},
+    "packages/typescript": {}
   }
 }
