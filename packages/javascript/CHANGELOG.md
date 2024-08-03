@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.1.0...eslint-config-javascript-v8.1.1) (2024-08-03)
+
+
+### Bug Fixes
+
+* no-await-in-loop ([4911a51](https://github.com/joshuaavalon/eslint-config/commit/4911a510dfcd88a2429db3d2dde190c1be491e08))
+
 ## [8.1.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.0.2...eslint-config-javascript-v8.1.0) (2024-08-01)
 
 
