@@ -1,5 +1,13 @@
 # Changelog
 
+## [8.1.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v8.1.1...eslint-config-v8.1.2) (2024-08-03)
+
+
+### Bug Fixes
+
+* allow promise for void return ([b72a0e6](https://github.com/joshuaavalon/eslint-config/commit/b72a0e6887b48b094a38901f0a4815547f0168d1))
+* escape variables ([f988dd4](https://github.com/joshuaavalon/eslint-config/commit/f988dd4a6a2203ce919872b9183fe78c87af6441))
+
 ## [8.1.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v8.1.0...eslint-config-v8.1.1) (2024-08-03)
 
 
