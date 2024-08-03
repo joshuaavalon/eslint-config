@@ -1,6 +1,6 @@
 {
   "name": "@joshuaavalon/eslint-config-react",
-  "version": "8.1.1",
+  "version": "8.1.2",
   "description": "Shareable ESLint React config.",
   "type": "module",
   "main": "dist/cjs/index.js",
@@ -35,7 +35,7 @@
     "url": "https://github.com/joshuaavalon/eslint-config/issues"
   },
   "dependencies": {
-    "@joshuaavalon/eslint-config-typescript": "^8.1.1",
+    "@joshuaavalon/eslint-config-typescript": "^8.1.2",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-beta-26f2496093-20240514"
   },
