@@ -26,12 +26,12 @@ jobs:
       - run: npm publish --workspace @joshuaavalon/eslint-config-javascript
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        if: ${{ steps.release.outputs.packages%2Fjavascript--release_created }}
+        if: ${{ steps.release.outputs['packages/javascript--release_created'] }}
       - run: npm publish --workspace @joshuaavalon/eslint-config-typescript
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        if: ${{ steps.release.outputs.packages%2Ftypescript--release_created }}
+        if: ${{ steps.release.outputs['packages/typescript--release_created'] }}
       - run: npm publish --workspace @joshuaavalon/eslint-config-react
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        if: ${{ steps.release.outputs.packages%2Freact--release_created }}
+        if: ${{ steps.release.outputs['packages/react--release_created'] }}
