@@ -93,7 +93,8 @@ const rules = {
   "grouped-accessor-pairs": ["error"],
   "guard-for-in": ["off"],
   "func-name-matching": ["off"],
-  "func-names": ["error", "as-needed"],
+  // For callback
+  "func-names": ["off"],
   "func-style": ["off"],
   "id-denylist": ["off"],
   "id-length": ["off"],
