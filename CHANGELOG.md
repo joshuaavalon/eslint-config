@@ -1,5 +1,13 @@
 # Changelog
 
+## [8.1.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v8.1.2...eslint-config-v8.1.3) (2024-08-13)
+
+
+### Bug Fixes
+
+* disable func-names ([3d16b9b](https://github.com/joshuaavalon/eslint-config/commit/3d16b9ba78bea5e31be50ba7c00d008653a1b72d))
+* fix formatting ([277fe41](https://github.com/joshuaavalon/eslint-config/commit/277fe41822aa780e905fb29babcb8e4f611a48b0))
+
 ## [8.1.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v8.1.1...eslint-config-v8.1.2) (2024-08-03)
 
 
