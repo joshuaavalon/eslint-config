@@ -1,5 +1,19 @@
 # Changelog
 
+## [8.1.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.1.2...eslint-config-typescript-v8.1.3) (2024-08-13)
+
+
+### Bug Fixes
+
+* fix formatting ([277fe41](https://github.com/joshuaavalon/eslint-config/commit/277fe41822aa780e905fb29babcb8e4f611a48b0))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-javascript bumped from ^8.1.1 to ^8.1.2
+
 ## [8.1.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.1.1...eslint-config-typescript-v8.1.2) (2024-08-03)
 
 

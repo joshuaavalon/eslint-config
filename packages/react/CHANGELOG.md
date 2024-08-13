@@ -1,5 +1,14 @@
 # Changelog
 
+## [8.1.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.1.2...eslint-config-react-v8.1.3) (2024-08-13)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-typescript bumped from ^8.1.2 to ^8.1.3
+
 ## [8.1.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.1.1...eslint-config-react-v8.1.2) (2024-08-03)
 
 
