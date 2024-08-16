@@ -66,7 +66,16 @@ const rules = {
   "no-unsafe-negation": ["error"],
   "no-unsafe-optional-chaining": ["error"],
   "no-unused-private-class-members": ["error"],
-  "no-unused-vars": ["error"],
+  "no-unused-vars": ["error",
+    {
+      args: "all",
+      argsIgnorePattern: "^_",
+      caughtErrors: "all",
+      caughtErrorsIgnorePattern: "^_",
+      destructuredArrayIgnorePattern: "^_",
+      varsIgnorePattern: "^_",
+      ignoreRestSiblings: true
+    }],
   "no-use-before-define": ["error"],
   "no-useless-backreference": ["error"],
   "require-atomic-updates": ["off"],
