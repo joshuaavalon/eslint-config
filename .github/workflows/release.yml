@@ -25,11 +25,11 @@ jobs:
     strategy:
       matrix:
         package:
-          - name: "@joshuaavalon/fastify-plugin-javascript"
+          - name: "@joshuaavalon/eslint-config-javascript"
             is-release: ${{ fromJSON(needs.release-please.outputs.release-javascript) }}
-          - name: "@joshuaavalon/fastify-plugin-typescript"
+          - name: "@joshuaavalon/eslint-config-typescript"
             is-release: ${{ fromJSON(needs.release-please.outputs.release-typescript) }}
-          - name: "@joshuaavalon/fastify-plugin-react"
+          - name: "@joshuaavalon/eslint-config-react"
             is-release: ${{ fromJSON(needs.release-please.outputs.release-react) }}
         exclude:
           - package:
