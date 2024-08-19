@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.4](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v8.1.3...eslint-config-v8.1.4) (2024-08-19)
+
+
+### Bug Fixes
+
+* update no-unused-vars ([3c219d2](https://github.com/joshuaavalon/eslint-config/commit/3c219d2e0a83de149587a25e7f4c4e44c7a565ca))
+
 ## [8.1.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-v8.1.2...eslint-config-v8.1.3) (2024-08-13)
 
 
