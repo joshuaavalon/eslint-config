@@ -1,5 +1,19 @@
 # Changelog
 
+## [8.1.4](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.1.3...eslint-config-typescript-v8.1.4) (2024-08-19)
+
+
+### Bug Fixes
+
+* update no-unused-vars ([3c219d2](https://github.com/joshuaavalon/eslint-config/commit/3c219d2e0a83de149587a25e7f4c4e44c7a565ca))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-javascript bumped from ^8.1.2 to ^8.1.3
+
 ## [8.1.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.1.2...eslint-config-typescript-v8.1.3) (2024-08-13)
 
 
