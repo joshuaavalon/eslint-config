@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.5](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.1.4...eslint-config-javascript-v8.1.5) (2024-08-27)
+
+
+### Bug Fixes
+
+* add missing build ([af2c35a](https://github.com/joshuaavalon/eslint-config/commit/af2c35a2508e6fdda0a3c12a3952e8a7a459774b))
+
 ## [8.1.4](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.1.3...eslint-config-javascript-v8.1.4) (2024-08-27)
 
 
