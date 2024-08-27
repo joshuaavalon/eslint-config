@@ -9,6 +9,7 @@
     "access": "public"
   },
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "rollup -c"
   },
   "exports": {
