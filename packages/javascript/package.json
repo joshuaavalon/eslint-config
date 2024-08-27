@@ -36,9 +36,9 @@
     "url": "https://github.com/joshuaavalon/eslint-config/issues"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin": "^2.6.0"
+    "@stylistic/eslint-plugin": "^2.6.4"
   },
   "peerDependencies": {
-    "eslint": "^9.8.0"
+    "eslint": "^9.9.1"
   }
 }
