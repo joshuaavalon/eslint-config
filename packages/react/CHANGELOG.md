@@ -1,5 +1,19 @@
 # Changelog
 
+## [8.1.6](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.1.5...eslint-config-react-v8.1.6) (2024-08-27)
+
+
+### Bug Fixes
+
+* add missing build ([af2c35a](https://github.com/joshuaavalon/eslint-config/commit/af2c35a2508e6fdda0a3c12a3952e8a7a459774b))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-typescript bumped from ^8.1.5 to ^8.1.6
+
 ## [8.1.5](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.1.4...eslint-config-react-v8.1.5) (2024-08-27)
 
 
