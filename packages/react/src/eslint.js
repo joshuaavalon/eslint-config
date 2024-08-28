@@ -36,7 +36,7 @@ const extensionRules = {
   "require-await": "off",
   "@typescript-eslint/require-await": "off",
   "no-return-await": "off",
-  "@typescript-eslint/return-await": "error"
+  "@typescript-eslint/return-await": ["error", "always"]
 };
 
 /** @type {import("eslint").Linter.RulesRecord} */

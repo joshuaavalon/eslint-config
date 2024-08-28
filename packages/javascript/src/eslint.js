@@ -176,7 +176,7 @@ const rules = {
   "no-restricted-properties": ["off"],
   "no-restricted-syntax": ["off"],
   "no-return-assign": ["error"],
-  "no-return-await": ["error"],
+  "no-return-await": ["off"],
   "no-script-url": ["error"],
   "no-sequences": ["error"],
   "no-shadow": ["off"],
