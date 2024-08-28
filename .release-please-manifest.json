@@ -1,6 +1,6 @@
 {
-  ".": "8.1.6",
-  "packages/javascript": "8.1.5",
-  "packages/react": "8.1.6",
-  "packages/typescript": "8.1.6"
+  ".": "8.1.7",
+  "packages/javascript": "8.1.6",
+  "packages/react": "8.1.7",
+  "packages/typescript": "8.1.7"
 }

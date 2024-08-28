@@ -1,6 +1,6 @@
 {
   "name": "@joshuaavalon/eslint-config",
-  "version": "8.1.6",
+  "version": "8.1.7",
   "description": "Shareable ESLint config.",
   "type": "module",
   "private": true,

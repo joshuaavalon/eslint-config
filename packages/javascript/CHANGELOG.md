@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.6](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.1.5...eslint-config-javascript-v8.1.6) (2024-08-28)
+
+
+### Bug Fixes
+
+* update return-await ([dc1a6c7](https://github.com/joshuaavalon/eslint-config/commit/dc1a6c76d913f64c56851a869ada367684691fec))
+
 ## [8.1.5](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.1.4...eslint-config-javascript-v8.1.5) (2024-08-27)
 
 

@@ -1,5 +1,19 @@
 # Changelog
 
+## [8.1.7](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.1.6...eslint-config-typescript-v8.1.7) (2024-08-28)
+
+
+### Bug Fixes
+
+* update return-await ([dc1a6c7](https://github.com/joshuaavalon/eslint-config/commit/dc1a6c76d913f64c56851a869ada367684691fec))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-javascript bumped from ^8.1.5 to ^8.1.6
+
 ## [8.1.6](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.1.5...eslint-config-typescript-v8.1.6) (2024-08-27)
 
 
