@@ -1,5 +1,20 @@
 # Changelog
 
+## [8.2.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.1.7...eslint-config-typescript-v8.2.0) (2024-09-26)
+
+
+### Features
+
+* Add eslint-plugin-perfectionist ([9ef8ba1](https://github.com/joshuaavalon/eslint-config/commit/9ef8ba1dfcc44a7a24dc14e71996eec74d274142))
+* Update perfectionist sort rules ([e59720c](https://github.com/joshuaavalon/eslint-config/commit/e59720ca1e0da84321aeac36400494fd7d8d7313))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-javascript bumped from ^8.1.6 to ^8.2.0
+
 ## [8.1.7](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.1.6...eslint-config-typescript-v8.1.7) (2024-08-28)
 
 
