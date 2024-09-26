@@ -2,6 +2,7 @@ import typescript from "typescript-eslint";
 import jsConfig from "@joshuaavalon/eslint-config-javascript";
 import eslintRules from "./eslint.js";
 import stylisticRules from "./stylistic.js";
+import perfectionistRules from "./perfectionist.js";
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
@@ -12,7 +13,8 @@ const config = {
   rules: {
     ...jsConfig.rules,
     ...eslintRules,
-    ...stylisticRules
+    ...stylisticRules,
+    ...perfectionistRules
   }
 };
 
