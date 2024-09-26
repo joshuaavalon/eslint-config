@@ -159,7 +159,6 @@ const rules = {
   "@typescript-eslint/prefer-string-starts-ends-with": "error",
   "@typescript-eslint/promise-function-async": "off",
   "@typescript-eslint/restrict-plus-operands": "error",
-  "@typescript-eslint/sort-type-constituents": "error",
   "@typescript-eslint/switch-exhaustiveness-check": "error",
   "@typescript-eslint/unbound-method": "error",
   ...extensionRules,

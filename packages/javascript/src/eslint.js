@@ -225,7 +225,7 @@ const rules = {
   "require-await": ["error"],
   "require-unicode-regexp": ["error"],
   "require-yield": ["error"],
-  "sort-imports": ["error", { ignoreDeclarationSort: true }],
+  "sort-imports": ["off"],
   "sort-keys": ["off"],
   "sort-vars": ["error"],
   strict: ["off"],

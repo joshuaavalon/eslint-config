@@ -21,6 +21,26 @@ const rules = {
         "unknown"
       ]
     }
+  ],
+  "perfectionist/sort-named-exports": [
+    "error",
+    {
+      type: "alphabetical",
+      order: "asc",
+      ignoreCase: true,
+      groupKind: "mixed"
+    }
+  ],
+  "perfectionist/sort-exports": [
+    "error",
+    {
+      type: "alphabetical",
+      order: "asc",
+      ignoreCase: true,
+      partitionByComment: false,
+      partitionByNewLine: false,
+      groupKind: "mixed"
+    }
   ]
 };
 

@@ -27,6 +27,16 @@ const rules = {
         "unknown"
       ]
     }
+  ],
+  "perfectionist/sort-intersection-types": [
+    "error",
+    {
+      type: "alphabetical",
+      order: "asc",
+      ignoreCase: true,
+      partitionByNewLine: false,
+      groups: []
+    }
   ]
 };
 
