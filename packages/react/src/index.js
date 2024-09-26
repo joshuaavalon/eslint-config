@@ -1,8 +1,8 @@
-import reactPlugin from "eslint-plugin-react";
-import reactRecommendedRules from "eslint-plugin-react/configs/recommended.js";
-import reactJsxRules from "eslint-plugin-react/configs/jsx-runtime.js";
-import reactHooksPlugin from "eslint-plugin-react-hooks";
 import tsRules from "@joshuaavalon/eslint-config-typescript";
+import reactPlugin from "eslint-plugin-react";
+import reactHooksPlugin from "eslint-plugin-react-hooks";
+import reactJsxRules from "eslint-plugin-react/configs/jsx-runtime.js";
+import reactRecommendedRules from "eslint-plugin-react/configs/recommended.js";
 import eslintRules from "./eslint.js";
 import stylisticRules from "./stylistic.js";
 

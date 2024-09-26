@@ -1,8 +1,8 @@
-import typescript from "typescript-eslint";
 import jsConfig from "@joshuaavalon/eslint-config-javascript";
+import typescript from "typescript-eslint";
 import eslintRules from "./eslint.js";
-import stylisticRules from "./stylistic.js";
 import perfectionistRules from "./perfectionist.js";
+import stylisticRules from "./stylistic.js";
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
