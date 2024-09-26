@@ -1,5 +1,19 @@
 # Changelog
 
+## [8.2.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.1.7...eslint-config-react-v8.2.0) (2024-09-26)
+
+
+### Features
+
+* Update perfectionist sort rules ([e59720c](https://github.com/joshuaavalon/eslint-config/commit/e59720ca1e0da84321aeac36400494fd7d8d7313))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-typescript bumped from ^8.1.7 to ^8.2.0
+
 ## [8.1.7](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.1.6...eslint-config-react-v8.1.7) (2024-08-28)
 
 
