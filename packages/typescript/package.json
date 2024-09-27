@@ -1,6 +1,6 @@
 {
   "name": "@joshuaavalon/eslint-config-typescript",
-  "version": "8.2.1",
+  "version": "8.2.2",
   "description": "Shareable ESLint Typescript config.",
   "type": "module",
   "main": "dist/cjs/index.js",
