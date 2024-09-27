@@ -6,7 +6,7 @@ const rules = {
       type: "alphabetical",
       order: "asc",
       ignoreCase: true,
-      internalPattern: ["~/**", "@/**", "#**"],
+      internalPattern: ["~/**", "@/**", "#**", "#**/**"],
       newlinesBetween: "ignore",
       groups: [
         "builtin",
