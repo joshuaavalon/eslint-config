@@ -1,6 +1,6 @@
 {
-  ".": "8.2.2",
-  "packages/javascript": "8.2.1",
-  "packages/react": "8.2.2",
-  "packages/typescript": "8.2.2"
+  ".": "8.3.0",
+  "packages/javascript": "8.3.0",
+  "packages/react": "8.2.3",
+  "packages/typescript": "8.2.3"
 }

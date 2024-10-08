@@ -1,5 +1,17 @@
 # Changelog
 
+## [8.3.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.2.1...eslint-config-javascript-v8.3.0) (2024-10-08)
+
+
+### Features
+
+* Add perfectionist/sort-named-imports ([85b21a3](https://github.com/joshuaavalon/eslint-config/commit/85b21a36f6f6ce830bdc8f52155911bdfcec873a))
+
+
+### Bug Fixes
+
+* Update internalPattern for perfectionist/sort-imports ([201fb54](https://github.com/joshuaavalon/eslint-config/commit/201fb5439957c24eb427ee80fb5a4d2acdaa9d6f))
+
 ## [8.2.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v8.2.0...eslint-config-javascript-v8.2.1) (2024-09-27)
 
 

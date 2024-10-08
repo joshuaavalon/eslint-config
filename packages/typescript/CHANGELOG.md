@@ -1,5 +1,14 @@
 # Changelog
 
+## [8.2.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.2.2...eslint-config-typescript-v8.2.3) (2024-10-08)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-javascript bumped from ^8.2.1 to ^8.3.0
+
 ## [8.2.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.2.1...eslint-config-typescript-v8.2.2) (2024-09-27)
 
 
