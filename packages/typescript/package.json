@@ -1,6 +1,6 @@
 {
   "name": "@joshuaavalon/eslint-config-typescript",
-  "version": "8.2.2",
+  "version": "8.2.3",
   "description": "Shareable ESLint Typescript config.",
   "type": "module",
   "main": "dist/cjs/index.js",
@@ -35,7 +35,7 @@
     "url": "https://github.com/joshuaavalon/eslint-config/issues"
   },
   "dependencies": {
-    "@joshuaavalon/eslint-config-javascript": "^8.2.1",
+    "@joshuaavalon/eslint-config-javascript": "^8.3.0",
     "typescript-eslint": "^8.3.0"
   },
   "peerDependencies": {
