@@ -1,5 +1,17 @@
 /** @type {import("@stylistic/eslint-plugin").RuleOptions} */
 const rules = {
+  "perfectionist/sort-named-imports": [
+    "error",
+    {
+      type: "alphabetical",
+      order: "asc",
+      ignoreAlias: true,
+      ignoreCase: true,
+      groupKind: "mixed",
+      partitionByNewLine: false,
+      partitionByComment: false
+    }
+  ],
   "perfectionist/sort-imports": [
     "error",
     {
