@@ -1,8 +1,6 @@
 import tsRules from "@joshuaavalon/eslint-config-typescript";
 import reactPlugin from "eslint-plugin-react";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
-import reactJsxRules from "eslint-plugin-react/configs/jsx-runtime.js";
-import reactRecommendedRules from "eslint-plugin-react/configs/recommended.js";
 import eslintRules from "./eslint.js";
 import stylisticRules from "./stylistic.js";
 
@@ -18,8 +16,8 @@ const config = {
   settings: { react: { version: "detect" } },
   rules: {
     ...tsRules.rules,
-    ...reactRecommendedRules.rules,
-    ...reactJsxRules.rules,
+    ...reactPlugin.configs.flat.recommended.rules,
+    ...reactPlugin.configs.flat["jsx-runtime"].rules,
     ...reactHooksPlugin.configs.recommended.rules,
     ...eslintRules,
     ...stylisticRules
