@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.2.4](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.2.3...eslint-config-react-v8.2.4) (2024-11-03)
+
+
+### Bug Fixes
+
+* update dependencies ([343cd36](https://github.com/joshuaavalon/eslint-config/commit/343cd368242235166e41d6f47d5a5c0651c9fa24))
+
 ## [8.2.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.2.2...eslint-config-react-v8.2.3) (2024-10-08)
 
 
