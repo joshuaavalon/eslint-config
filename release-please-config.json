@@ -7,7 +7,6 @@
     }
   ],
   "packages": {
-    ".": {},
     "packages/javascript": {},
     "packages/react": {},
     "packages/typescript": {}
