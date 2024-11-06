@@ -3,18 +3,20 @@
   "version": "8.2.3",
   "description": "Shareable ESLint Typescript config.",
   "type": "module",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "module": "./dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
-    "build": "rollup -c"
+    "prebuild": "rimraf dist",
+    "build": "tsc"
   },
   "exports": {
-    "require": "./dist/cjs/index.js",
-    "import": "./dist/esm/index.js"
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
   "keywords": [
     "eslint",
@@ -36,9 +38,9 @@
   },
   "dependencies": {
     "@joshuaavalon/eslint-config-javascript": "^8.3.0",
-    "typescript-eslint": "^8.3.0"
+    "typescript-eslint": "^8.13.0"
   },
   "peerDependencies": {
-    "eslint": "^9.9.1"
+    "eslint": "^9.14.0"
   }
 }
