@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "lint": "eslint packages",
-    "build": "npm run --workspaces build",
+    "prebuild": "rimraf --glob packages/*/dist packages/*/tsconfig.tsbuildinfo",
+    "build": "tsc --build ./packages/tsconfig.json",
     "release": "npm run release --workspaces"
   },
   "keywords": [
