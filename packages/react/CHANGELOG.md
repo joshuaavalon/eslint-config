@@ -1,5 +1,23 @@
 # Changelog
 
+## [9.0.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.2.4...eslint-config-react-v9.0.0) (2024-11-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update dependencies and use TypeScript
+
+### Features
+
+* Update dependencies and use TypeScript ([0445a26](https://github.com/joshuaavalon/eslint-config/commit/0445a262aa2bebc836c0e0fd64a80e867d83e242))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-typescript bumped from ^8.2.3 to ^9.0.0
+
 ## [8.2.4](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v8.2.3...eslint-config-react-v8.2.4) (2024-11-03)
 
 
