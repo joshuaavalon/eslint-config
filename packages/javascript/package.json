@@ -1,6 +1,6 @@
 {
   "name": "@joshuaavalon/eslint-config-javascript",
-  "version": "8.3.0",
+  "version": "9.0.0",
   "description": "Shareable ESLint JavaScript config.",
   "type": "module",
   "module": "./dist/index.d.ts",

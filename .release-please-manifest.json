@@ -1,5 +1,5 @@
 {
-  "packages/javascript": "8.3.0",
-  "packages/react": "8.2.4",
-  "packages/typescript": "8.2.3"
+  "packages/javascript": "9.0.0",
+  "packages/react": "9.0.0",
+  "packages/typescript": "9.0.0"
 }
