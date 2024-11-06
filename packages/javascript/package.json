@@ -3,19 +3,27 @@
   "version": "8.3.0",
   "description": "Shareable ESLint JavaScript config.",
   "type": "module",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "module": "./dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
-    "build": "rollup -c"
+    "prebuild": "rimraf dist",
+    "build": "tsc"
   },
   "exports": {
     ".": {
-      "require": "./dist/cjs/index.js",
-      "import": "./dist/esm/index.js"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./deprecated": {
+      "import": "./dist/deprecated.js",
+      "types": "./dist/deprecated.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils.js",
+      "types": "./dist/utils.d.ts"
     }
   },
   "keywords": [
@@ -37,10 +45,10 @@
     "url": "https://github.com/joshuaavalon/eslint-config/issues"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin": "^2.6.4",
-    "eslint-plugin-perfectionist": "^3.7.0"
+    "@stylistic/eslint-plugin": "^2.10.1",
+    "eslint-plugin-perfectionist": "^3.9.1"
   },
   "peerDependencies": {
-    "eslint": "^9.9.1"
+    "eslint": "^9.14.0"
   }
 }

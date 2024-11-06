@@ -1,5 +1,9 @@
-/** @type {import("@stylistic/eslint-plugin").RuleOptions} */
-const rules = {
+import type { UnprefixedRuleOptions } from "@stylistic/eslint-plugin";
+import type { PrefixRules } from "./utils.js";
+
+type OmitRules = "@stylistic/func-call-spacing";
+
+export const stylisticRules: Omit<PrefixRules<UnprefixedRuleOptions, "@stylistic/">, `@stylistic/jsx-${string}` | `@stylistic/type-${string}` | OmitRules> = {
   "@stylistic/array-bracket-newline": ["error", "consistent"],
   "@stylistic/array-bracket-spacing": ["error", "never"],
   "@stylistic/array-element-newline": [
@@ -13,8 +17,8 @@ const rules = {
   "@stylistic/arrow-spacing": [
     "error",
     {
-      before: true,
-      after: true
+      after: true,
+      before: true
     }
   ],
   "@stylistic/block-spacing": ["error", "always"],
@@ -23,12 +27,13 @@ const rules = {
   "@stylistic/comma-spacing": [
     "error",
     {
-      before: false,
-      after: true
+      after: true,
+      before: false
     }
   ],
   "@stylistic/comma-style": ["error", "last"],
   "@stylistic/computed-property-spacing": ["error", "never"],
+  "@stylistic/curly-newline": ["error", { consistent: true, multiline: true }],
   "@stylistic/dot-location": ["error", "property"],
   "@stylistic/eol-last": ["error", "always"],
   "@stylistic/function-call-argument-newline": ["error", "consistent"],
@@ -37,8 +42,8 @@ const rules = {
   "@stylistic/generator-star-spacing": [
     "error",
     {
-      before: true,
-      after: false
+      after: false,
+      before: true
     }
   ],
   "@stylistic/implicit-arrow-linebreak": ["error", "beside"],
@@ -48,21 +53,21 @@ const rules = {
   "@stylistic/keyword-spacing": [
     "error",
     {
-      before: true,
-      after: true
+      after: true,
+      before: true
     }
   ],
-  "@stylistic/linebreak-style": ["error", "unix"],
   "@stylistic/line-comment-position": ["off"],
+  "@stylistic/linebreak-style": ["error", "unix"],
   "@stylistic/lines-around-comment": [
     "error",
     {
-      beforeBlockComment: true,
-      allowBlockStart: true,
-      allowObjectStart: true,
+      afterHashbangComment: true,
       allowArrayStart: true,
+      allowBlockStart: true,
       allowClassStart: true,
-      afterHashbangComment: true
+      allowObjectStart: true,
+      beforeBlockComment: true
     }
   ],
   "@stylistic/lines-between-class-members": [
@@ -71,25 +76,25 @@ const rules = {
       enforce: [
         {
           blankLine: "never",
-          prev: "field",
-          next: "field"
+          next: "field",
+          prev: "field"
         },
         {
           blankLine: "always",
-          prev: "*",
-          next: "method"
+          next: "method",
+          prev: "*"
         },
         {
           blankLine: "always",
-          prev: "method",
-          next: "*"
+          next: "*",
+          prev: "method"
         }
       ]
     }
   ],
-  "@stylistic/max-len": "off",
+  "@stylistic/max-len": ["off"],
   "@stylistic/max-statements-per-line": ["error", { max: 1 }],
-  "@stylistic/member-delimiter-style": "error",
+  "@stylistic/member-delimiter-style": ["error"],
 
   /**
    * Break comment code block
@@ -98,39 +103,40 @@ const rules = {
   "@stylistic/multiline-ternary": ["error", "always-multiline"],
   "@stylistic/new-parens": ["error", "always"],
   "@stylistic/newline-per-chained-call": ["error", { ignoreChainWithDepth: 3 }],
+  "@stylistic/no-confusing-arrow": ["off"],
   "@stylistic/no-extra-parens": [
     "error",
     "all",
     {
       enforceForFunctionPrototypeMethods: false,
-      nestedBinaryExpressions: false,
-      ignoreJSX: "all"
+      ignoreJSX: "all",
+      nestedBinaryExpressions: false
     }
   ],
-  "@stylistic/no-extra-semi": "error",
-  "@stylistic/no-floating-decimal": "error",
-  "@stylistic/no-mixed-operators": "error",
-  "@stylistic/no-mixed-spaces-and-tabs": "error",
-  "@stylistic/no-multi-spaces": "error",
+  "@stylistic/no-extra-semi": ["error"],
+  "@stylistic/no-floating-decimal": ["error"],
+  "@stylistic/no-mixed-operators": ["error"],
+  "@stylistic/no-mixed-spaces-and-tabs": ["error"],
+  "@stylistic/no-multi-spaces": ["error"],
   "@stylistic/no-multiple-empty-lines": [
     "error",
     {
       max: 2,
-      maxEOF: 1,
-      maxBOF: 0
+      maxBOF: 0,
+      maxEOF: 1
     }
   ],
   "@stylistic/no-tabs": ["error"],
-  "@stylistic/no-trailing-spaces": "error",
-  "@stylistic/no-whitespace-before-property": "error",
+  "@stylistic/no-trailing-spaces": ["error"],
+  "@stylistic/no-whitespace-before-property": ["error"],
   "@stylistic/nonblock-statement-body-position": ["error", "beside"],
   "@stylistic/object-curly-newline": [
     "error",
     {
-      ObjectExpression: { multiline: true },
-      ObjectPattern: { multiline: true },
+      ExportDeclaration: { multiline: true },
       ImportDeclaration: { multiline: true },
-      ExportDeclaration: { multiline: true }
+      ObjectExpression: { multiline: true },
+      ObjectPattern: { multiline: true }
     }
   ],
   "@stylistic/object-curly-spacing": ["error", "always"],
@@ -138,28 +144,27 @@ const rules = {
   "@stylistic/one-var-declaration-per-line": ["error", "always"],
   "@stylistic/operator-linebreak": ["error", "before"],
   "@stylistic/padded-blocks": ["error", "never"],
+  "@stylistic/padding-line-between-statements": ["off"],
   "@stylistic/quote-props": ["error", "as-needed"],
   "@stylistic/quotes": ["error", "double"],
   "@stylistic/rest-spread-spacing": ["error", "never"],
   "@stylistic/semi": ["error", "always"],
-  "@stylistic/semi-spacing": "error",
+  "@stylistic/semi-spacing": ["error"],
   "@stylistic/semi-style": ["error", "last"],
-  "@stylistic/space-before-blocks": "error",
-  "@stylistic/space-before-function-paren": ["error", { anonymous: "always", named: "never", asyncArrow: "always" }],
+  "@stylistic/space-before-blocks": ["error"],
+  "@stylistic/space-before-function-paren": ["error", { anonymous: "always", asyncArrow: "always", named: "never" }],
   "@stylistic/space-in-parens": ["error", "never"],
-  "@stylistic/space-infix-ops": "error",
-  "@stylistic/space-unary-ops": "error",
+  "@stylistic/space-infix-ops": ["error"],
+  "@stylistic/space-unary-ops": ["error"],
   "@stylistic/spaced-comment": [
     "error",
     "always",
     { markers: ["/"] }
   ],
-  "@stylistic/switch-colon-spacing": "error",
+  "@stylistic/switch-colon-spacing": ["error"],
   "@stylistic/template-curly-spacing": ["error", "never"],
   "@stylistic/template-tag-spacing": ["error", "never"],
   "@stylistic/wrap-iife": ["error", "inside"],
-  "@stylistic/wrap-regex": ["off", "inside"],
+  "@stylistic/wrap-regex": ["off"],
   "@stylistic/yield-star-spacing": ["error", "after"]
 };
-
-export default rules;
