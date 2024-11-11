@@ -201,6 +201,7 @@ export const typescriptEslintRules: Record<string, Linter.RuleSeverityAndOptions
   "no-duplicate-imports": ["off"],
   "no-empty-function": ["off"],
   "no-implied-eval": ["off"],
+  "no-invalid-this": ["off"],
   "no-loop-func": ["off"],
   "no-redeclare": ["off"],
   "no-unused-expressions": ["off"],
