@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.1...eslint-config-typescript-v9.0.2) (2024-11-11)
+
+
+### Bug Fixes
+
+* Disable some rules for TypeScript ([7cafdb5](https://github.com/joshuaavalon/eslint-config/commit/7cafdb53ce64c96eea563c86eca447293a7d5a97))
+
 ## [9.0.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.0...eslint-config-typescript-v9.0.1) (2024-11-11)
 
 
