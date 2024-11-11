@@ -1,6 +1,6 @@
 {
   "name": "@joshuaavalon/eslint-config-typescript",
-  "version": "9.0.0",
+  "version": "9.0.1",
   "description": "Shareable ESLint Typescript config.",
   "type": "module",
   "module": "./dist/index.d.ts",
