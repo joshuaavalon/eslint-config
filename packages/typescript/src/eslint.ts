@@ -204,8 +204,10 @@ export const typescriptEslintRules: Record<string, Linter.RuleSeverityAndOptions
   "no-invalid-this": ["off"],
   "no-loop-func": ["off"],
   "no-redeclare": ["off"],
+  "no-undef": ["off"],
   "no-unused-expressions": ["off"],
   "no-unused-vars": ["off"],
   "no-use-before-define": ["off"],
-  "prefer-promise-reject-errors": ["off"]
+  "prefer-promise-reject-errors": ["off"],
+  "require-await": ["off"]
 };
