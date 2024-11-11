@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.0...eslint-config-typescript-v9.0.1) (2024-11-11)
+
+
+### Bug Fixes
+
+* disable no-invalid-this for TypeScript ([af84d03](https://github.com/joshuaavalon/eslint-config/commit/af84d036d51f0ddec4e91561da61b17e67bb9e1f))
+
 ## [9.0.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v8.2.3...eslint-config-typescript-v9.0.0) (2024-11-06)
 
 
