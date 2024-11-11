@@ -188,12 +188,17 @@ export const typescriptEslintRules: Record<string, Linter.RuleSeverityAndOptions
   "@typescript-eslint/return-await": ["error", "always"],
   "@typescript-eslint/sort-type-constituents": ["off"],
   "@typescript-eslint/strict-boolean-expressions": ["off"],
-  "@typescript-eslint/switch-exhaustiveness-check": ["error"],
+  "@typescript-eslint/switch-exhaustiveness-check": ["error", {
+    allowDefaultCaseForExhaustiveSwitch: true,
+    considerDefaultExhaustiveForUnions: true,
+    requireDefaultForNonUnion: false
+  }],
   "@typescript-eslint/triple-slash-reference": ["error"],
   "@typescript-eslint/typedef": ["off"],
   "@typescript-eslint/unbound-method": ["error"],
   "@typescript-eslint/unified-signatures": ["off"],
   "@typescript-eslint/use-unknown-in-catch-callback-variable": ["error"],
+  "default-case": ["off"],
   "default-param-last": ["off"],
   "dot-notation": ["off"],
   "max-params": ["off"],
