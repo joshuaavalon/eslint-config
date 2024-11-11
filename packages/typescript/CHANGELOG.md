@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.2...eslint-config-typescript-v9.0.3) (2024-11-11)
+
+
+### Bug Fixes
+
+* Better switch lint for TypeScript ([683fd0c](https://github.com/joshuaavalon/eslint-config/commit/683fd0c6aa338b41eabaf03be0e81a70d5772bdf))
+
 ## [9.0.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.1...eslint-config-typescript-v9.0.2) (2024-11-11)
 
 
