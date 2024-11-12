@@ -198,6 +198,7 @@ export const typescriptEslintRules: Record<string, Linter.RuleSeverityAndOptions
   "@typescript-eslint/unbound-method": ["error"],
   "@typescript-eslint/unified-signatures": ["off"],
   "@typescript-eslint/use-unknown-in-catch-callback-variable": ["error"],
+  "consistent-return": ["off"],
   "default-case": ["off"],
   "default-param-last": ["off"],
   "dot-notation": ["off"],
