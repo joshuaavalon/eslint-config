@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.4](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.3...eslint-config-typescript-v9.0.4) (2024-11-12)
+
+
+### Bug Fixes
+
+* Disable consistent-return TypeScript ([a97cc84](https://github.com/joshuaavalon/eslint-config/commit/a97cc84d256d4dccff65cce93acaf65d0892f76e))
+
 ## [9.0.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.2...eslint-config-typescript-v9.0.3) (2024-11-11)
 
 
