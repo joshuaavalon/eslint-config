@@ -214,6 +214,7 @@ export const typescriptEslintRules: Record<string, Linter.RuleSeverityAndOptions
   "no-unused-expressions": ["off"],
   "no-unused-vars": ["off"],
   "no-use-before-define": ["off"],
+  "no-useless-constructor": ["off"],
   "prefer-promise-reject-errors": ["off"],
   "require-await": ["off"]
 };
