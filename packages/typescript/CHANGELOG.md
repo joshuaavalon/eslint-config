@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.5](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.4...eslint-config-typescript-v9.0.5) (2024-11-15)
+
+
+### Bug Fixes
+
+* Disable no-useless-constructor for TypeScript ([45fcc09](https://github.com/joshuaavalon/eslint-config/commit/45fcc0963eced322ae457a80b00deec62de0780b))
+
 ## [9.0.4](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.3...eslint-config-typescript-v9.0.4) (2024-11-12)
 
 
