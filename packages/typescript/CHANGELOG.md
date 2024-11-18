@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.6](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.5...eslint-config-typescript-v9.0.6) (2024-11-18)
+
+
+### Bug Fixes
+
+* Disable consistent-type-definitions ([767de5a](https://github.com/joshuaavalon/eslint-config/commit/767de5adfd9c9e72a0c0847b5ed17800d2c80468))
+
 ## [9.0.5](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.4...eslint-config-typescript-v9.0.5) (2024-11-15)
 
 
