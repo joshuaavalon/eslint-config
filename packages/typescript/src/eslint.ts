@@ -21,7 +21,8 @@ export const typescriptEslintRules: Record<string, Linter.RuleSeverityAndOptions
   "@typescript-eslint/consistent-indexed-object-style": ["error", "record"],
   "@typescript-eslint/consistent-return": ["off"],
   "@typescript-eslint/consistent-type-assertions": ["off"],
-  "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+  // https://github.com/microsoft/TypeScript/issues/15300
+  "@typescript-eslint/consistent-type-definitions": ["off"],
   "@typescript-eslint/consistent-type-exports": ["error"],
   "@typescript-eslint/consistent-type-imports": ["error"],
   "@typescript-eslint/default-param-last": ["error"],
