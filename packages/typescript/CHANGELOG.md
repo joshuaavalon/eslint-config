@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.1.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.1.0...eslint-config-typescript-v9.1.1) (2024-11-25)
+
+
+### Bug Fixes
+
+* @perfectionist/sort-object-types should not partitionByComment ([81cb6fe](https://github.com/joshuaavalon/eslint-config/commit/81cb6fe4dda62451ca6d1778eb57f4d70c476b46))
+
 ## [9.1.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.7...eslint-config-typescript-v9.1.0) (2024-11-25)
 
 
