@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.7](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.6...eslint-config-typescript-v9.0.7) (2024-11-25)
+
+
+### Bug Fixes
+
+* Disable return-await ([7338d70](https://github.com/joshuaavalon/eslint-config/commit/7338d70ccaedf5e6a14bd99e82835f6df62f262b))
+
 ## [9.0.6](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.0.5...eslint-config-typescript-v9.0.6) (2024-11-18)
 
 
