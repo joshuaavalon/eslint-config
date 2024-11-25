@@ -1,4 +1,5 @@
-import type { PrefixRuleModules } from "@joshuaavalon/eslint-config-javascript/utils";
+import type { Prefix } from "@joshuaavalon/eslint-config-javascript/utils";
+import type { Linter } from "eslint";
 import type { rules } from "eslint-plugin-perfectionist";
 
 type PickRules =
@@ -8,7 +9,9 @@ type PickRules =
   | "@perfectionist/sort-object-types"
   | "@perfectionist/sort-union-types";
 
-export const perfectionistRules: Pick<PrefixRuleModules<typeof rules, "@perfectionist/">, PickRules> = {
+  type Rules = Record<Prefix<keyof typeof rules, "@perfectionist/">, Linter.RuleSeverityAndOptions>;
+
+export const perfectionistRules: Pick<Rules, PickRules> = {
   "@perfectionist/sort-imports": [
     "error",
     {
@@ -31,7 +34,7 @@ export const perfectionistRules: Pick<PrefixRuleModules<typeof rules, "@perfecti
         "unknown"
       ],
       ignoreCase: true,
-      internalPattern: ["~/**", "@/**", "#**", "#**/**"],
+      internalPattern: ["^~/.+", "^@/.+", "^#.+", "^#.*/.*"],
       newlinesBetween: "ignore",
       order: "asc",
       type: "alphabetical"

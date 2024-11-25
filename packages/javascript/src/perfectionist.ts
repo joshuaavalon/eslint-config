@@ -1,17 +1,18 @@
+import type { Linter } from "eslint";
 import type { rules } from "eslint-plugin-perfectionist";
-import type { PrefixRuleModules } from "./utils.js";
+import type { Prefix } from "./utils.js";
 
 type OmitRules =
-  | "@perfectionist/sort-astro-attributes"
   | "@perfectionist/sort-interfaces"
   | "@perfectionist/sort-intersection-types"
   | "@perfectionist/sort-jsx-props"
+  | "@perfectionist/sort-modules" // Break define first
   | "@perfectionist/sort-object-types"
-  | "@perfectionist/sort-svelte-attributes"
-  | "@perfectionist/sort-union-types"
-  | "@perfectionist/sort-vue-attributes";
+  | "@perfectionist/sort-union-types";
 
-export const perfectionistRules: Omit<PrefixRuleModules<typeof rules, "@perfectionist/">, OmitRules> = {
+type Rules = Record<Prefix<keyof typeof rules, "@perfectionist/">, Linter.RuleSeverityAndOptions>;
+
+export const perfectionistRules: Omit<Rules, OmitRules> = {
   "@perfectionist/sort-array-includes": [
     "error",
     {
@@ -24,6 +25,20 @@ export const perfectionistRules: Omit<PrefixRuleModules<typeof rules, "@perfecti
     }
   ],
   "@perfectionist/sort-classes": ["off"],
+  "@perfectionist/sort-decorators": [
+    "error",
+    {
+      ignoreCase: true,
+      order: "asc",
+      sortOnAccessors: true,
+      sortOnClasses: true,
+      sortOnMethods: true,
+      sortOnParameters: true,
+      sortOnProperties: true,
+      specialCharacters: "keep",
+      type: "alphabetical"
+    }
+  ],
   "@perfectionist/sort-enums": [
     "error",
     {
@@ -47,6 +62,15 @@ export const perfectionistRules: Omit<PrefixRuleModules<typeof rules, "@perfecti
       type: "alphabetical"
     }
   ],
+  "@perfectionist/sort-heritage-clauses": [
+    "error",
+    {
+      ignoreCase: true,
+      order: "asc",
+      specialCharacters: "keep",
+      type: "alphabetical"
+    }
+  ],
   "@perfectionist/sort-imports": [
     "error",
     {
@@ -63,7 +87,7 @@ export const perfectionistRules: Omit<PrefixRuleModules<typeof rules, "@perfecti
         "unknown"
       ],
       ignoreCase: true,
-      internalPattern: ["~/**", "@/**", "#**", "#**/**"],
+      internalPattern: ["^~/.+", "^@/.+", "^#.+", "^#.*/.*"],
       newlinesBetween: "ignore",
       order: "asc",
       type: "alphabetical"
