@@ -64,7 +64,7 @@ export const perfectionistRules: Pick<Rules, PickRules> = {
     {
       ignoreCase: true,
       order: "asc",
-      partitionByComment: true,
+      partitionByComment: false,
       partitionByNewLine: false,
       type: "alphabetical"
     }
