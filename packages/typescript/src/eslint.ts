@@ -186,7 +186,7 @@ export const typescriptEslintRules: Record<string, Linter.RuleSeverityAndOptions
   "@typescript-eslint/require-await": ["off"],
   "@typescript-eslint/restrict-plus-operands": ["error"],
   "@typescript-eslint/restrict-template-expressions": ["off"],
-  "@typescript-eslint/return-await": ["error", "always"],
+  "@typescript-eslint/return-await": ["off"],
   "@typescript-eslint/sort-type-constituents": ["off"],
   "@typescript-eslint/strict-boolean-expressions": ["off"],
   "@typescript-eslint/switch-exhaustiveness-check": ["error", {
