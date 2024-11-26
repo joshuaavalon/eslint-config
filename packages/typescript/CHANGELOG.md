@@ -1,5 +1,17 @@
 # Changelog
 
+## [9.2.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.1.1...eslint-config-typescript-v9.2.0) (2024-11-26)
+
+
+### Features
+
+* Update typescript-eslint to v8.16.0 ([d03642e](https://github.com/joshuaavalon/eslint-config/commit/d03642efe019ccd44da9b8e8ea46e84df77d8850))
+
+
+### Bug Fixes
+
+* Allow comment start ([68068d6](https://github.com/joshuaavalon/eslint-config/commit/68068d61daebe4959d4546456135d034db6ed06a))
+
 ## [9.1.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.1.0...eslint-config-typescript-v9.1.1) (2024-11-25)
 
 
