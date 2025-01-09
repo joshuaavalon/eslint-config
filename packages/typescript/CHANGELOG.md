@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.2.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.2.0...eslint-config-typescript-v9.2.1) (2025-01-09)
+
+
+### Bug Fixes
+
+* Disable no-dupe-class-members for TypeScript ([3e04bb4](https://github.com/joshuaavalon/eslint-config/commit/3e04bb4784af9321df335bb02c143ff90684054d))
+
 ## [9.2.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.1.1...eslint-config-typescript-v9.2.0) (2024-11-26)
 
 
