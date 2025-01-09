@@ -205,6 +205,7 @@ export const typescriptEslintRules: Record<string, Linter.RuleSeverityAndOptions
   "dot-notation": ["off"],
   "max-params": ["off"],
   "no-array-constructor": ["off"],
+  "no-dupe-class-members": ["off"],
   "no-duplicate-imports": ["off"],
   "no-empty-function": ["off"],
   "no-implied-eval": ["off"],
