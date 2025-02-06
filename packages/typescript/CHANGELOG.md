@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.2.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.2.1...eslint-config-typescript-v9.2.2) (2025-02-06)
+
+
+### Bug Fixes
+
+* Update @perfectionist/sort-union-types ([34967dc](https://github.com/joshuaavalon/eslint-config/commit/34967dc9db92f83a8361880d40b7456df10abb4f))
+
 ## [9.2.1](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.2.0...eslint-config-typescript-v9.2.1) (2025-01-09)
 
 
