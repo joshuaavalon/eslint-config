@@ -72,6 +72,20 @@ export const perfectionistRules: Pick<Rules, PickRules> = {
   "@perfectionist/sort-union-types": [
     "error",
     {
+      groups: [
+        "conditional",
+        "function",
+        "import",
+        "intersection",
+        "named",
+        "keyword",
+        "literal",
+        "object",
+        "operator",
+        "tuple",
+        "union",
+        "nullish"
+      ],
       ignoreCase: true,
       order: "asc",
       partitionByComment: false,
