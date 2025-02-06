@@ -1,5 +1,14 @@
 # Changelog
 
+## [9.1.4](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v9.1.3...eslint-config-react-v9.1.4) (2025-02-06)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-typescript bumped from ^9.2.1 to ^9.2.2
+
 ## [9.1.3](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v9.1.2...eslint-config-react-v9.1.3) (2025-01-09)
 
 
