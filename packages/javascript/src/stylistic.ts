@@ -3,7 +3,7 @@ import type { PrefixRules } from "./utils.js";
 
 type OmitRules = "@stylistic/func-call-spacing";
 
-export const stylisticRules: Omit<PrefixRules<UnprefixedRuleOptions, "@stylistic/">, `@stylistic/jsx-${string}` | `@stylistic/type-${string}` | OmitRules> = {
+export const stylisticRules: Omit<PrefixRules<UnprefixedRuleOptions, "@stylistic/">, OmitRules | `@stylistic/jsx-${string}` | `@stylistic/type-${string}`> = {
   "@stylistic/array-bracket-newline": ["error", "consistent"],
   "@stylistic/array-bracket-spacing": ["error", "never"],
   "@stylistic/array-element-newline": [
