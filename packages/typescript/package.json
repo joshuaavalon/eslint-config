@@ -1,6 +1,6 @@
 {
   "name": "@joshuaavalon/eslint-config-typescript",
-  "version": "9.2.2",
+  "version": "10.0.0",
   "description": "Shareable ESLint Typescript config.",
   "type": "module",
   "module": "./dist/index.d.ts",
@@ -37,7 +37,7 @@
     "url": "https://github.com/joshuaavalon/eslint-config/issues"
   },
   "dependencies": {
-    "@joshuaavalon/eslint-config-javascript": "^9.1.0",
+    "@joshuaavalon/eslint-config-javascript": "^10.0.0",
     "typescript-eslint": "^8.46.1"
   },
   "peerDependencies": {

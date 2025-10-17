@@ -1,5 +1,16 @@
 # Changelog
 
+## [10.0.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v9.1.0...eslint-config-javascript-v10.0.0) (2025-10-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update dependencies
+
+### Features
+
+* Update dependencies ([9224074](https://github.com/joshuaavalon/eslint-config/commit/9224074a7fc106ab299d34bdc692441cd44f4883))
+
 ## [9.1.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-javascript-v9.0.0...eslint-config-javascript-v9.1.0) (2024-11-25)
 
 

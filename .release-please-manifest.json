@@ -1,5 +1,5 @@
 {
-  "packages/javascript": "9.1.0",
-  "packages/react": "9.1.4",
-  "packages/typescript": "9.2.2"
+  "packages/javascript": "10.0.0",
+  "packages/react": "10.0.0",
+  "packages/typescript": "10.0.0"
 }

@@ -1,5 +1,23 @@
 # Changelog
 
+## [10.0.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.2.2...eslint-config-typescript-v10.0.0) (2025-10-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update dependencies
+
+### Features
+
+* Update dependencies ([9224074](https://github.com/joshuaavalon/eslint-config/commit/9224074a7fc106ab299d34bdc692441cd44f4883))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-javascript bumped from ^9.1.0 to ^10.0.0
+
 ## [9.2.2](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-typescript-v9.2.1...eslint-config-typescript-v9.2.2) (2025-02-06)
 
 
