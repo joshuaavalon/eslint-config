@@ -9,7 +9,7 @@ type PickRules =
   | "@perfectionist/sort-object-types"
   | "@perfectionist/sort-union-types";
 
-  type Rules = Record<Prefix<keyof typeof rules, "@perfectionist/">, Linter.RuleSeverityAndOptions>;
+type Rules = Record<Prefix<keyof typeof rules, "@perfectionist/">, Linter.RuleSeverityAndOptions>;
 
 export const perfectionistRules: Pick<Rules, PickRules> = {
   "@perfectionist/sort-imports": [
