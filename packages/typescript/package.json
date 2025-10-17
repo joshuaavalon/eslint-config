@@ -38,9 +38,9 @@
   },
   "dependencies": {
     "@joshuaavalon/eslint-config-javascript": "^9.1.0",
-    "typescript-eslint": "^8.16.0"
+    "typescript-eslint": "^8.46.1"
   },
   "peerDependencies": {
-    "eslint": "^9.15.0"
+    "eslint": "^9.37.0"
   }
 }

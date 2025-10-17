@@ -17,8 +17,8 @@ const config: Linter.Config = {
   rules: {
     ...jsConfig.rules,
     ...tsConfig.rules,
-    ...reactPlugin.configs.flat?.recommended.rules,
-    ...reactPlugin.configs.flat?.["jsx-runtime"].rules,
+    ...reactPlugin.configs.flat.recommended.rules,
+    ...reactPlugin.configs.flat["jsx-runtime"].rules,
     ...reactHooksPlugin.configs.recommended.rules,
     ...stylisticRules,
     ...perfectionistRules

@@ -142,7 +142,30 @@ export const stylisticRules: Omit<PrefixRules<UnprefixedRuleOptions, "@stylistic
   "@stylistic/object-curly-spacing": ["error", "always"],
   "@stylistic/object-property-newline": ["error", { allowAllPropertiesOnSameLine: true }],
   "@stylistic/one-var-declaration-per-line": ["error", "always"],
-  "@stylistic/operator-linebreak": ["error", "before"],
+  "@stylistic/operator-linebreak": [
+    "error",
+    "before",
+    {
+      overrides: {
+        "-=": "after",
+        "??=": "after",
+        "**=": "after",
+        "*=": "after",
+        "/=": "after",
+        "&&=": "after",
+        "&=": "after",
+        "%=": "after",
+        "^=": "after",
+        "+=": "after",
+        "<<=": "after",
+        "=": "after",
+        ">>=": "after",
+        ">>>=": "after",
+        "|=": "after",
+        "||=": "after"
+      }
+    }
+  ],
   "@stylistic/padded-blocks": ["error", "never"],
   "@stylistic/padding-line-between-statements": ["off"],
   "@stylistic/quote-props": ["error", "as-needed"],

@@ -28,8 +28,8 @@
   "author": "Joshua Avalon",
   "license": "Apache-2.0",
   "devDependencies": {
-    "eslint": "^9.15.0",
+    "eslint": "^9.37.0",
     "rimraf": "^6.0.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.9.3"
   }
 }
