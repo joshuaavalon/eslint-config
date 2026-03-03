@@ -1,5 +1,21 @@
 # Changelog
 
+## [10.1.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v10.0.0...eslint-config-react-v10.1.0) (2026-03-03)
+
+
+### Features
+
+* Update dependencies ([4948b0b](https://github.com/joshuaavalon/eslint-config/commit/4948b0b5584e0b50fdfab2f3f45235382a8a7396))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @joshuaavalon/eslint-config-typescript bumped from ^10.0.0 to ^10.1.0
+  * devDependencies
+    * @joshuaavalon/eslint-config-javascript bumped from ^10.0.0 to ^10.1.0
+
 ## [10.0.0](https://github.com/joshuaavalon/eslint-config/compare/eslint-config-react-v9.1.4...eslint-config-react-v10.0.0) (2025-10-17)
 
 
