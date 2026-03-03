@@ -42,5 +42,9 @@
   },
   "peerDependencies": {
     "eslint": "^9.37.0"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.4.0",
+    "eslint-plugin-perfectionist": "^4.15.1"
   }
 }

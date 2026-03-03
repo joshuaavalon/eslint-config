@@ -1,7 +1,9 @@
 name: main
+
 on:
   - push
   - pull_request
+
 jobs:
   lint:
     name: lint
@@ -13,12 +15,18 @@ jobs:
           - latest
     steps:
       - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
       - uses: actions/setup-node@v5
         with:
+          check-latest: true
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm run build
-      - run: npm run lint
+          cache: pnpm
+      - run: pnpm i --frozen-lockfile
+      - run: pnpm run build
+      - run: pnpm run lint
+
   test:
     name: test
     runs-on: ubuntu-latest
@@ -29,8 +37,13 @@ jobs:
           - latest
     steps:
       - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
       - uses: actions/setup-node@v5
         with:
+          check-latest: true
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm run build
+          cache: pnpm
+      - run: pnpm i --frozen-lockfile
+      - run: pnpm run build
