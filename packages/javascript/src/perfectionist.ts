@@ -16,7 +16,6 @@ export const perfectionistRules: Omit<Rules, OmitRules> = {
   "@perfectionist/sort-array-includes": [
     "error",
     {
-      groupKind: "mixed",
       ignoreCase: true,
       order: "asc",
       partitionByComment: false,
@@ -51,10 +50,19 @@ export const perfectionistRules: Omit<Rules, OmitRules> = {
       type: "alphabetical"
     }
   ],
+  "@perfectionist/sort-export-attributes": [
+    "error",
+    {
+      ignoreCase: true,
+      order: "asc",
+      partitionByComment: false,
+      partitionByNewLine: false,
+      type: "alphabetical"
+    }
+  ],
   "@perfectionist/sort-exports": [
     "error",
     {
-      groupKind: "mixed",
       ignoreCase: true,
       order: "asc",
       partitionByComment: false,
@@ -68,6 +76,16 @@ export const perfectionistRules: Omit<Rules, OmitRules> = {
       ignoreCase: true,
       order: "asc",
       specialCharacters: "keep",
+      type: "alphabetical"
+    }
+  ],
+  "@perfectionist/sort-import-attributes": [
+    "error",
+    {
+      ignoreCase: true,
+      order: "asc",
+      partitionByComment: false,
+      partitionByNewLine: false,
       type: "alphabetical"
     }
   ],
@@ -106,7 +124,6 @@ export const perfectionistRules: Omit<Rules, OmitRules> = {
   "@perfectionist/sort-named-exports": [
     "error",
     {
-      groupKind: "mixed",
       ignoreCase: true,
       order: "asc",
       type: "alphabetical"
@@ -115,7 +132,6 @@ export const perfectionistRules: Omit<Rules, OmitRules> = {
   "@perfectionist/sort-named-imports": [
     "error",
     {
-      groupKind: "mixed",
       ignoreAlias: true,
       ignoreCase: true,
       order: "asc",

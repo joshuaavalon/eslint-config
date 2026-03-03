@@ -1,17 +1,6 @@
-import type { Prefix } from "@joshuaavalon/eslint-config-javascript/utils";
-import type { Linter } from "eslint";
-import type { rules } from "eslint-plugin-perfectionist";
+import type { RulesConfig } from "@eslint/core";
 
-type PickRules =
-  | "@perfectionist/sort-imports"
-  | "@perfectionist/sort-interfaces"
-  | "@perfectionist/sort-intersection-types"
-  | "@perfectionist/sort-object-types"
-  | "@perfectionist/sort-union-types";
-
-type Rules = Record<Prefix<keyof typeof rules, "@perfectionist/">, Linter.RuleSeverityAndOptions>;
-
-export const perfectionistRules: Pick<Rules, PickRules> = {
+export const perfectionistRules: RulesConfig = {
   "@perfectionist/sort-imports": [
     "error",
     {
